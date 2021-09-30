@@ -1,6 +1,6 @@
 # `flux-video`
 
-A reactive video delivery microservice written in `Java` using `Spring` and `reactive`.
+#### A reactive video delivery *mock microservice* written in `Java` using `Spring` and `reactive`.
 
 ## Workings
 
