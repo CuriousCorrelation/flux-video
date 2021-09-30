@@ -1,5 +1,7 @@
 # `flux-video`
 
+[![pipeline status](https://gitlab.com/CuriousCorrelation/flux-video/badges/main/pipeline.svg)](https://gitlab.com/CuriousCorrelation/flux-video/-/commits/main) 
+
 ### A reactive video delivery *mock microservice* written in `Java` using [`Spring`](https://www.spring.io) and [`reactor`](https://projectreactor.io/).
 
 ## Workings
