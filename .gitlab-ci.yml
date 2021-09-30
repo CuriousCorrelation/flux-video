@@ -1,0 +1,20 @@
+stages:
+  - build
+  - test
+  - docker
+
+maven-build:
+  image: maven:3-jdk-11
+  stage: build
+  script: "mvn clean package -B"
+  artifacts:
+    paths:
+      - target/*.jar
+
+maven-test:
+  image: maven:3-jdk-11
+  stage: test
+  script: "mvn test"
+  artifacts:
+    paths:
+      - target/*.jar
