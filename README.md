@@ -37,3 +37,5 @@ The video contents are called via `video` tag using a simple `index.html` in `re
 ``` html
 <video src="video/curious" width="720px" height="480px" controls preload="none"></video>
 ```
+
+![Screenshot](/images/screenshot.png)
